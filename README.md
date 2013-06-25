@@ -16,3 +16,10 @@ https://YOUR.APP.appspot.com/api/door/VENUE.ID will store the latest checkin
 Use a RaspberryPi to check your door every second for changes.
 If your friend checks in, raise a pin connected to a relay that
 powers a solenoid that buzzes your friend in!
+
+A basic implementation of this is provided in the client directory.
+
+On your Pi:
+
+    sudo pip install RPi.GPIO
+    sudo python client/door.py https://YOUR.APP.appspot.com/api/door/VENUE.ID
