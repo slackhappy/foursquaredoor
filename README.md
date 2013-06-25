@@ -27,11 +27,11 @@ On your Pi:
 
 Here is a rough schematic:
 
-![Buzzer Schematic](http://cl.ly/image/2A0v0g401E3P)
+![Buzzer Schematic](http://cl.ly/image/2A0v0g401E3P/Screen%20Shot%202013-06-24%20at%2011.42.08%20PM.png)
 
 Note that door.py uses pin #23:
 
-![GPIO Model B Pinout](http://elinux.org/File:GPIOs.png)
+![GPIO Model B Pinout](http://elinux.org/images/2/2a/GPIOs.png)
 
 And parts list:
 
